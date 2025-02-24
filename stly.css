@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul, ol, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    color: #fff;
+}
+
+header{
+    height: 100px;
+}
+main{
+    flex-grow: 1;
+}
+.galeria{
+    height: 100%;
+    width: 100%;
+    background-color: purple;
+    display: flex;
+}
+.foto{
+    width: 25%;
+    height: 100%;
+    border: 2px solid #fff;
+}
+.foto img{
+    height: 100%;
+    width:100%;
+    justify-content:100%
+}
+.container-direita{
+    height: 100%;
+    flex-grow: 1;
+    border: 2px solid #fff;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-superior{
+    flex-grow: 1;
+    background-color: pink;
+    display: flex;
+}
+.container-superior-esquerdo{
+    flex-grow: 1;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-superior-esquerdo .foto{
+    background-color: lightgreen;
+    height: 50%;
+    width: 50%;
+}
+.container-superior-esquerdo .foto:nth-of-type(1){
+    width: 100%;
+}
+.container-superior>.foto {
+    width: 33%;
+}
+
+.container-inferior{
+    flex-grow: 1;
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.container-inferior .foto{
+    background-color: coral;
+    height: 50%;
+    width: 33.5%;
+}
+
+.container-inferior .foto:nth-of-type(3){
+    height: 100%;
+    width: 66.5%;
+}
+
+h1{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+footer{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dev {
+    font-size: 1rem;
+    font-style: italic;
+}
