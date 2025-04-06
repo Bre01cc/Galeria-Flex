@@ -1,17 +1,21 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-ul, ol, li{
+
+ul,
+ol,
+li {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
     color: inherit;
 }
 
-body{
+body {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -19,29 +23,34 @@ body{
     color: #fff;
 }
 
-header{
+header {
     height: 100px;
 }
-main{
+
+main {
     flex-grow: 1;
 }
-.galeria{
+
+.galeria {
     height: 100%;
     width: 100%;
     background-color: purple;
     display: flex;
 }
-.foto{
+
+.foto {
     width: 25%;
     height: 100%;
     border: 2px solid #fff;
 }
-.foto img{
+
+.foto img {
     height: 100%;
-    width:100%;
-    justify-content:100%
+    width: 100%;
+    justify-content: 100%
 }
-.container-direita{
+
+.container-direita {
     height: 100%;
     flex-grow: 1;
     border: 2px solid #fff;
@@ -50,55 +59,61 @@ main{
     flex-direction: column;
 }
 
-.container-superior{
+.container-superior {
     flex-grow: 1;
     background-color: pink;
     display: flex;
 }
-.container-superior-esquerdo{
+
+.container-superior-esquerdo {
     flex-grow: 1;
     background-color: aqua;
     display: flex;
     flex-wrap: wrap;
 }
-.container-superior-esquerdo .foto{
+
+.container-superior-esquerdo .foto {
     background-color: lightgreen;
     height: 50%;
     width: 50%;
 }
-.container-superior-esquerdo .foto:nth-of-type(1){
+
+.container-superior-esquerdo .foto:nth-of-type(1) {
     width: 100%;
 }
+
 .container-superior>.foto {
     width: 33%;
 }
 
-.container-inferior{
+.container-inferior {
     flex-grow: 1;
     background-color: gold;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
-.container-inferior .foto{
+
+.container-inferior .foto {
     background-color: coral;
     height: 50%;
     width: 33.5%;
 }
 
-.container-inferior .foto:nth-of-type(3){
+.container-inferior .foto:nth-of-type(3) {
     height: 100%;
     width: 66.5%;
 }
 
-h1{
+h1 {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 4rem;
 }
-footer{
+
+footer {
     height: 50px;
     display: flex;
     justify-content: center;
