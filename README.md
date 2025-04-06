@@ -1,6 +1,8 @@
 # Galeria-Flex
-![](./img/Captura%20de%20Tela%202025-03-10%20às%2008.24.47.png)
-
+![](./img/Captura%20de%20tela%202025-04-06%20133711.png)
+![](./img/Captura%20de%20tela%202025-04-06%20133735.png)
+![](./img/Captura%20de%20tela%202025-04-06%20133806.png)
+![](./img/Captura%20de%20tela%202025-04-06%20133820.png)
 Galeria flex github, desenvolvidos na aulas
  da disciplinas Linguagem de marcação na escola Senai Jandira
 
